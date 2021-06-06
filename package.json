@@ -4,6 +4,7 @@
   "description": "A node.js + express.js for memory game.",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node ./src/server.ts",
     "nodemon": "nodemon --config=nodemon.json ./src/server.ts"
   },
   "author": "Anirban Das",
